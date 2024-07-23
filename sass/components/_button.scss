@@ -45,6 +45,15 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   &--animated {
     animation: moveInButton 500ms ease-out 750ms;
     animation-fill-mode: backwards;
